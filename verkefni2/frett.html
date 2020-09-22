@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %} {{ frett[1] }} {% endblock %}</h1>
+<main class="row">
+    <section>
+        <h1>{{ frett[1] }}</h1>
+        <img src="/static/{{ nr }}.jpg">
+    </section>
+    <section class="pd-t-3">
+        <h3>Frétt dagsins</h3>
+            <p>
+                 {{ frett[2] }}
+            </p>
+            <p>
+                Höfundur:{{ frett[3] }}
+            </p>
+            <p><a href="/b-hluti">Fréttaryfirlit</a></p>
+            
+    </section>
+</main>
+{% endblock %}
