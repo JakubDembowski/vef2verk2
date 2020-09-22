@@ -1,0 +1,15 @@
+body {
+    max-width: 50em;
+    border: 1px solid;
+    margin: 1em auto;
+    color: gray;
+}
+h1 {
+    color: cyan;
+}
+h2 {
+    color: cyan;
+}
+h3{
+    colo: cyan;
+}
